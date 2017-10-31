@@ -134,41 +134,51 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    padding-bottom: 18px;
+    margin-top: 1em;
+    padding-bottom: 0.333em;
     color: #333333;
-    font-weight: normal;
+    font-weight: 700;
     font-family: 'Open Sans', sans-serif;
 }
 
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+    margin-top: 0;
+}
+
 h1 {
-    font-size: 37px;
+    font-size: 2.5em;
     line-height: 1.2;
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 2em;
     line-height: 1.2;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 1.5em;
     line-height: 1.2;
 }
 
 h4 {
-    font-size: 28px;
+    font-size: 1.3em;
     line-height: 1.2;
     text-transform: uppercase;
     letter-spacing: 0.02em;
 }
 
 h5 {
-    font-size: 24px;
+    font-size: 1.3em;
     line-height: 1.2;
 }
 
 h6 {
-    font-size: 21px;
+    font-size: 1.1em;
     line-height: 1.2;
 }
 
@@ -184,7 +194,7 @@ hr {
 ----------------------------------------------- */
 p {
     line-height: 1.6;
-    margin-bottom: 15px;
+    margin-bottom: .666em;
     font-family: 'Open Sans', serif;
     font-size: 16px;
 }
