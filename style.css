@@ -1050,6 +1050,16 @@ li.default-menu {
     display: block;
 }
 
+.site-header .inner-wrap {
+    display: none;
+}
+
+.site-header .wp-custom-header img[src*="svg"] {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
 .main-small-navigation {
     float: none;
 }
