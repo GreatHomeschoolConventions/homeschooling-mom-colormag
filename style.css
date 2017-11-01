@@ -1062,8 +1062,8 @@ li.default-menu {
     display: block;
 }
 
-.site-header .inner-wrap {
-    display: none;
+#header-text-nav-wrap {
+    padding: 0;
 }
 
 .site-header .wp-custom-header img[src*="svg"] {
