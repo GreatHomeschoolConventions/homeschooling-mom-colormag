@@ -2736,6 +2736,10 @@ a#scroll-up:hover {
     font-size: 20px;
 }
 
+.author-box .promo-image {
+    margin-bottom: 0;
+}
+
 /* Related Posts */
 .related-posts-main-title .fa {
     color: #f37f6c;
